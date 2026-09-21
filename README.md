@@ -1,8 +1,10 @@
-# parquet
+# O que é o Apache Parquet?
 
 O que é ?
 
-**Parquet** é um formato de arquivo usado para **armazenar dados de forma eficiente**, principalmente em projetos de análise de dados e Big Data.
+**Apache Parquet** é um formato de arquivo usado para **armazenar dados de forma eficiente**, principalmente em projetos de análise de dados e Big Data.
+
+O Apache Parquet é um formato de armazenamento colunar de código aberto utilizado para armazenar, gerenciar e analisar com eficiência grandes conjuntos de dados. Ao contrário dos formatos de armazenamento baseados em linhas, como o CSV ou JSON, o Parquet organiza os dados em colunas para melhorar o desempenho das consultas e reduzir os custos de armazenamento de dados.
 
  A principal característica é que ele armazena os dados **por coluna**, em vez de linha.
 
@@ -10,7 +12,7 @@ O que é ?
 
  Imagine uma tabela:
 
- | id | nome | idade |
+| id | nome | idade |
 | --- | --- | --- |
 | 1 | Ana | 25 |
 | 2 | João | 30 |
